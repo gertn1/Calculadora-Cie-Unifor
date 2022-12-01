@@ -22,6 +22,12 @@ public class Calculadora {
     public double exponenciacao(double n1, double n2){
         return Math.pow(n1,n2);
     }
+    public double piso(double n1){
+        return Math.floor(n1);
+    }
+    public double teto( double n1){
+        return Math.ceil(n1);
+    }
     
 
 }
